@@ -1,7 +1,6 @@
 #Tommy Fang
-#fangt@rpi.edu
-#Intro to Deep Learning ECSE 4965
-#MNIST Classifier using batches, custom backpropagation.
+#dkfang7@gmail.com
+#MNIST classifier using custom backprop and batch training
 
 import numpy as np
 import matplotlib

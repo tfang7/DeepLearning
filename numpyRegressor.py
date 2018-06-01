@@ -1,3 +1,4 @@
+#MNIST classifier for numbers 0-5 using numpy/tensorflow
 import numpy as np
 import matplotlib
 import pickle
@@ -16,7 +17,7 @@ usingTF = False
 #write to file?
 writeFile = True
 
-#Didn't realize we were supposed to use tensorflow functions, I implemented a numpy version first and then implemented the tensorflow version.
+#I implemented a numpy version first and then implemented the tensorflow version.
 def main():
 	print("Loading training data")
 	trainX = load_data("./train_data")
